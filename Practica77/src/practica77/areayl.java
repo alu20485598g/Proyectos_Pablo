@@ -17,6 +17,7 @@ public class areayl {
 * pasado por el usuario.
 * @return Devolverá un número de tipo float con el valor del perímetro.*/
   private float resul;
+  
 public float getlongitud(float r){
     resul=(float) (r*2*Math.PI);
     return resul;
