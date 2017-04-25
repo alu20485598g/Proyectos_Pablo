@@ -23,7 +23,6 @@ public float getlongitud(float r){
     return resul;
 }
 /** Método que devuelve el área de la circunferencia
-* @param resul Variable donde encontramos el el valor del área.
 * @param r Variable que coje de la clase principal y donde encontramos el radio
 * pasado por el usuario.
 * @return Devolverá un número de tipo float con el valor del área.*/
