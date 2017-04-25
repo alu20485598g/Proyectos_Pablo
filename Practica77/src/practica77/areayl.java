@@ -11,13 +11,11 @@ package practica77;
  * @author pablo
  */
 public class areayl {
+    private float resul;
 /** Método que devuelve el perímetro de la circunferencia
-* @param resul Variable donde encontramos el el valor del perímetro.
 * @param r Variable que coje de la clase principal y donde encontramos el radio
 * pasado por el usuario.
-* @return Devolverá un número de tipo float con el valor del perímetro.*/
-  private float resul;
-  
+* @return Devolverá un número de tipo float con el valor del perímetro(resul).*/
 public float getlongitud(float r){
     resul=(float) (r*2*Math.PI);
     return resul;
@@ -25,7 +23,7 @@ public float getlongitud(float r){
 /** Método que devuelve el área de la circunferencia
 * @param r Variable que coje de la clase principal y donde encontramos el radio
 * pasado por el usuario.
-* @return Devolverá un número de tipo float con el valor del área.*/
+* @return Devolverá un número de tipo float con el valor del área(resul).*/
 public float getarea(float r){
     resul=(float) (Math.pow(r, 2)*Math.PI);
     return resul;
