@@ -17,7 +17,7 @@ public class areat {
 * del triángulo pasado por el usuario.
 * @param h Variable que coje de la clase principal y donde encontramos la altura 
 * del triángulo pasado por el usuario.
-* @return Devolverá un número de tipo float con el valor del perímetro(resul).*/
+* @return Devolverá un número de tipo float con el valor del área(resul).*/
 public float getarea(float b, float h){
     resul=h*b/2;
     return resul;
