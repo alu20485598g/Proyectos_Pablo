@@ -12,7 +12,7 @@ package practica80;
  */
 public class areac {
     private float resul;
-     /** Método que devuelve el área lateral de la circunferencia
+    /** Método que devuelve el área lateral de la circunferencia
 * @param l Variable que coje de la clase principal y donde encontramos el lado 
 * del cubo pasado por el usuario.
 * @return Devolverá un número de tipo float con el valor del área(resul).*/
@@ -20,7 +20,7 @@ public float getareal(float l){
     resul=l*l*4;
     return resul;
 }
-/** Método que devuelve el área total de la circunferencia
+    /** Método que devuelve el área total de la circunferencia
 * @param l Variable que coje de la clase principal y donde encontramos el lado 
 * del cubo pasado por el usuario.
 * @return Devolverá un número de tipo float con el valor del área(resul).*/
