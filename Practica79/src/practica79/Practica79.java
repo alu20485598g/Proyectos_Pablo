@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  * Clase principal. Encontraremos el acceso a la clase areap la cual realizará
- * las operaciones para que nos devuelva el resultado correcto y poder 
+ * las operaciones para que nos devuelva el área del pentágono y poder 
  * mostrarlo.
  * @author pablo
  */

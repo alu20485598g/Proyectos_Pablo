@@ -14,7 +14,7 @@ public class areap {
     private float resul;
     private float apotema;
     private float perimetro;
-    /** Método que devuelve el perímetro de la circunferencia
+    /** Método que devuelve el área del pentágono
 * @param r Variable que coje de la clase principal y donde encontramos el radio 
 * del pentágono pasado por el usuario.
 * @param l Variable que coje de la clase principal y donde encontramos el lado 
