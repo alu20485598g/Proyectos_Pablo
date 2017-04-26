@@ -12,7 +12,7 @@ package practica78;
  */
 public class areat {
     private float resul;
-    /** Método que devuelve el perímetro de la circunferencia
+    /** Método que devuelve el área del triángulo
 * @param b Variable que coje de la clase principal y donde encontramos la base 
 * del triángulo pasado por el usuario.
 * @param h Variable que coje de la clase principal y donde encontramos la altura 
