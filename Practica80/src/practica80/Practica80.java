@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  * Clase principal. Encontraremos el acceso a la clase areac la cual realizará
- * las operaciones para que nos devuelva el valor correcto del área del círculo
+ * las operaciones para que nos devuelva el valor correcto del área del cubo
  * y poder mostrarlo.
  * @author pablo
  */
@@ -22,7 +22,7 @@ public class Practica80 {
     /* Declaración de variable l (lado)*/
     float l;
      /*Hacemos la llamada a la clase areap en la cual calcularemos el área 
-    círculo.*/
+    cubo.*/
     areac ac = new areac();
     /*Entrada por teclado, pedimos del lado al usuario y adjudicamos
     los valores a las variables*/
