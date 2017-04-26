@@ -6,7 +6,7 @@
 package practica80;
 
 /**
- * Clase areap. Encontramos el método getareal y getareat el cual nos permitirá 
+ * Clase areac. Encontramos el método getareal y getareat el cual nos permitirá 
  * calcular el área del círculo.
  * @author pablo
  */
