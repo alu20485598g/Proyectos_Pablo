@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 /**
  * Clase principal. Encontraremos el acceso a las diferentes clases las cuales 
- * realizarán las operaciones para que nos devuelva el resultado correcto y 
- * poder mostrarlo.
+ * realizarán las operaciones para que nos devuelva el área y perímetro del 
+ * círculo y poder mostrarlo.
  * @author pablo
  */
 public class Practica77 {
