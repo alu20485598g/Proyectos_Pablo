@@ -8,7 +8,8 @@ package practica85;
 import java.util.Scanner;
 
 /**
- *
+ * Clase convTiempo. Encontramos diferentes métodos los cuales nos permitirá 
+ * pedir los segundos al usuario y convertir los segundos en otras unidades.
  * @author pablo
  */
 public class convTiempo {
@@ -16,12 +17,17 @@ public class convTiempo {
     private int[] tiempo = new int[4];
     private int[] restos = new int[4];
     private int[] valores = new int[]{604800, 86400, 3600, 60};
-    
+    /**Método que pide al usuario los segundos a converir.
+     * 
+     */
     public void PedirSegundos(){
         System.out.print("Dime cuantos segundos quieres convertir: ");
         Scanner teclado = new Scanner(System.in);
         segundos=teclado.nextInt();
     }
+    /**Método que convierte los segundos en diferentes unidades de tiempo.
+     * 
+     */
     public void Convertir(){
         tiempo[0]=segundos/valores[0];
         restos[0]=segundos-valores[0]*tiempo[0];
@@ -30,6 +36,10 @@ public class convTiempo {
             restos[i]=restos[i-1]-valores[i]*tiempo[i];
         }
     }
+    /**Método que devuelve los segundos introducidos por el usuario ya 
+     * convertidos.
+     * 
+     */
     public void GetConvertir(){
         System.out.println("--------------------------------------");
         System.out.println("Los segundos introducidos equivalen a:");
