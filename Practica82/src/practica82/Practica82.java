@@ -6,7 +6,9 @@
 package practica82;
 
 /**
- *
+ * Clase principal. En esta clase encontraremos las diferentes llamadas a la 
+ * clase monedas, la cual será la encargada de realizar las diferentes 
+ * funciones a través de sus métodos.
  * @author pablo
  */
 public class Practica82 {
@@ -16,10 +18,13 @@ public class Practica82 {
      */
     public static void main(String[] args) {
     int cantidad;
+     /*Llamamos a la nueva clase monedas a través del objeto m1*/
     monedas m1 = new monedas();
+    /*Con este método pediremos la cantidad al usuario*/
     m1.PedirCantidad();
+    /*El siguiente método desglosará la cantidad*/
     m1.Desglosar();
+    /*Por último devolvemos la cantidad desglosada para mostrarla por pantalla*/
     m1.GetDesglose();
     }
-    
 }
