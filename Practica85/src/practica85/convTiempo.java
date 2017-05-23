@@ -38,7 +38,6 @@ public class convTiempo {
     }
     /**Método que devuelve los segundos introducidos por el usuario ya 
      * convertidos.
-     * 
      */
     public void GetConvertir(){
         System.out.println("--------------------------------------");
