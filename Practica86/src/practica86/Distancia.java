@@ -27,7 +27,7 @@ public class Distancia {
         pies=teclado.nextInt();
     }
     /**Método que convierte los pies en el resto de unidades.
-     * 
+     *
      */
     public void Convertir(){
         yardas = pies/3;
@@ -39,9 +39,9 @@ public class Distancia {
      * 
      */
     public void GetConvertir(){
-        System.out.println("-----------------------------------");
+        System.out.println("------------------------------------");
         System.out.println("Los piess introducidos equivalen a:");
-        System.out.println("-----------------------------------");
+        System.out.println("------------------------------------");
         System.out.println("Yardas: "+ yardas);
         System.out.println("Pulgadas: "+ pulgadas);
         System.out.println("Metros: "+ metros);
