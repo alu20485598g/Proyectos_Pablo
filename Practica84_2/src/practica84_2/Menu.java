@@ -55,7 +55,7 @@ public class Menu {
      * @param c1 Variable donde se guardan los datos del objeto c1, de la primera cuenta
      * @param c2 Variable donde se guardan los datos del objeto c2, de la segunda cuenta
      * @param c3 Variable donde se guardan los datos del objeto c3, de la tercera cuenta
-     * @return Nos devuelve la opción que hemos elegido.
+     * @return Nos devuelve la opción que hemos elegido
      */
     public int menuswitch1(int op1, int op2, cuenta c1, cuenta c2, cuenta c3){
     op1=menucuentas();
