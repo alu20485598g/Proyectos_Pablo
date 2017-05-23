@@ -18,7 +18,7 @@ public class Practica84 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
- /*Llamamos a la nueva clase pitagoras a través del objeto p1.*/
+    /*Llamamos a la nueva clase pitagoras a través del objeto p1.*/
     pitagoras p1 = new pitagoras();
     /*Con este método pedimos el primer cateto al usuario.*/
     p1.pedircateto1();
