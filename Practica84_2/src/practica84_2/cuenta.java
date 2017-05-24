@@ -42,35 +42,64 @@ public class cuenta {
         this.apellido2=c1.apellido2;
         this.DNI=c1.DNI;
     }
-    /*Getters y Setters para guardar los datos de cada objeto de la clase*/
+    /**Método set para guardar el valor que le pasamos de saldo
+     * @param saldo Variable con el valor saldo
+     */
     public void setsaldo(float saldo){
         this.saldo=saldo;
     }
+
+    /**Método set para guardar el valor que le pasamos de tipo_interes
+     * @param tipo_interes Variable con el valor tipo_interes
+     */
     public void setinteres(float tipo_interes){
         this.tipo_interes=tipo_interes;
     }
+    /**Método set para guardar el valor que le pasamos de num_cuenta
+     * @param num_cuenta Variable con el valor num_cuenta
+     */
     public void setncuenta(int num_cuenta){
         this.num_cuenta=num_cuenta;
     }    
-    
+    /**Método get de la variable nombre
+     * @return Devuelve el valor de nombre
+     */
     public String getnombre(){
         return nombre;
     }
+    /**Método get de la variable apellido
+     * @return Devuelve el valor de apellido1
+     */
     public String getapellido1(){
         return apellido1;
     }
+    /**Método get de la variable apellido2
+     * @return Devuelve el valor de apellido2
+     */
     public String getapellido2(){
         return apellido2;
     }
+    /**Método get de la variable DNI
+     * @return Devuelve el valor de DNI
+     */
     public String getDNI(){
         return DNI;
     }
+     /**Método get de la variable saldo
+     * @return Devuelve el valor de saldo
+     */
     public float getsaldo(){
         return saldo;
     }
+     /**Método get de la variable tipo_interes
+     * @return Devuelve el valor de tipo_interes
+     */
     public float getinteres(){
         return tipo_interes;
     }
+     /**Método get de la variable num_cuenta
+     * @return Devuelve el valor de num_cuenta
+     */
     public int getncuenta(){
         return num_cuenta;
     }
