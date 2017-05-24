@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /** Clase fecha. Encontramos diferentes métodos los cuales nos permitirá 
  * realizar diferentes operaciones como la comprobacion de una fecha o la 
- * impresión por pantalla de la fecha actual, ademas de los getters y setters.
+ * impresión por pantalla de la fecha actual, además de los getters y setters.
  *
  * @author pablo
  */
