@@ -11,7 +11,7 @@ package practica76;
  * @author pablo
  */
 public class Calculadora {
-    /** Método que devuelve la suma de num1 y num2
+    /** Método que devuelve la suma de num1 y num2.
      * @param num1 Variable donde encontramos el valor del primer número.
      * @param num2 Variable donde encontramos el valor del segundo número.
      * @return Devolverá un número de tipo float como resultado 
