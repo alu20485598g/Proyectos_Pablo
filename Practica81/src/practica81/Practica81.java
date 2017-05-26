@@ -24,7 +24,7 @@ public class Practica81 {
      /*Hacemos la llamada a la clase ayve en la cual calcularemos el área y 
     volumen del cubo.*/
     ayve e = new ayve();
-    /*Entrada por teclado, pedimos el radio al usuario y adjudicamos los valores a las variables*/
+    /*Entrada por teclado, pedimos el radio al usuario y adjudicamos los valores a las variables.*/
     Scanner teclado = new Scanner (System.in);
     System.out.println("Dame el radio: ");
     r = teclado.nextFloat();
