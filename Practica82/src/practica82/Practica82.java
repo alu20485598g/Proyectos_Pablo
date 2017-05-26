@@ -18,7 +18,7 @@ public class Practica82 {
      */
     public static void main(String[] args) {
     int cantidad;
-     /*Llamamos a la nueva clase monedas a través del objeto m1*/
+     /*Llamamos a la nueva clase monedas a través del objeto m1.*/
     monedas m1 = new monedas();
     /*Con este método pediremos la cantidad al usuario*/
     m1.PedirCantidad();
