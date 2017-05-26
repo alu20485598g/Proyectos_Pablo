@@ -24,7 +24,7 @@ public class Practica80 {
     cubo.*/
     areac ac = new areac();
     /*Entrada por teclado, pedimos del lado al usuario y adjudicamos
-    los valores a las variables*/
+    los valores a las variables.*/
     Scanner teclado = new Scanner (System.in);
     System.out.println("Dame el radio: ");
     l = teclado.nextFloat();
