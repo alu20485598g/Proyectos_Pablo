@@ -32,7 +32,7 @@ public class Practica78 {
     System.out.println("Dame la altura: ");
     h = teclado.nextFloat();
     /*En la variable resula guardaremos el valor que nos devuelva el método
-    de la clase areat*/
+    de la clase areat.*/
     resula= at.getarea(b, h);
     /*Mostramos por pantalla los resultados*/
     System.out.println("El área es "+ resula +" m2");
