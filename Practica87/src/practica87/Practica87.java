@@ -16,7 +16,7 @@ public class Practica87 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    /*Declaramos 3 objetos nuevos de libro con sus datos y 2 vacíos*/
+    /*Declaramos 3 objetos nuevos de libro con sus datos y 2 vacíos.*/
     libro l1 = new libro(10,5,"Pablo Hontoria Cruz","Las pesadillas del programador","1000AAA");
     libro l2 = new libro(8,3,"Bill Gates","El mundo de JAVA","2000BBB");
     libro l3 = new libro(20,10,"Steve Jobs","C++ es una mierda","3000CCC");
