@@ -26,7 +26,7 @@ public class Practica79 {
     pentágono.*/
     areap ap = new areap();
     /*Entrada por teclado, pedimos lel radio y el lado al usuario y adjudicamos
-    los valores a las variables*/
+    los valores a las variables.*/
     Scanner teclado = new Scanner (System.in);
     System.out.println("Dame el radio: ");
     r = teclado.nextFloat();
