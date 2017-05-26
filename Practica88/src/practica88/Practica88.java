@@ -19,7 +19,7 @@ public class Practica88 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    /*Declaramos el ArrayList para los objetos de libros*/
+    /*Declaramos el ArrayList para los objetos de libros.*/
     ArrayList<libro> libros = new ArrayList();
     /*Declaramos 3 objetos nuevos de libro con sus datos*/
     libro l0 = new libro(10,5,"Pablo Hontoria Cruz","Las pesadillas del programador","1000AAA");
