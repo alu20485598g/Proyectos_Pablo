@@ -39,6 +39,5 @@ public class Practica88 {
     if (op1 == 5){
             System.out.println("Saliendo del programa...");
         }
-    }
-    }
+    }}
 }
