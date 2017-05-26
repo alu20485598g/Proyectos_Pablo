@@ -17,7 +17,7 @@ public class Practica83 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
    /*Llamamos a la nueva clase ecuacion2 a través del objeto ec.*/
     ecuacion2 ec = new ecuacion2();
     /*Con este método pedimos la variable a de la ecuación al usuario.*/
