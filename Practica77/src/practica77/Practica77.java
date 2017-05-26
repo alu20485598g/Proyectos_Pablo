@@ -23,7 +23,7 @@ public class Practica77 {
     float resull;
     float resula;
     /*Hacemos la llamada a la clase areayl en la cual calcularemos el área y 
-    perímetro*/
+    perímetro.*/
     areayl ayl = new areayl();
     Scanner teclado = new Scanner (System.in);
     System.out.println("Dame el radio: ");
