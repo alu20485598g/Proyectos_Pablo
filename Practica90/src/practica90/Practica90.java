@@ -17,7 +17,7 @@ public class Practica90 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     /*Creamos la clase nif con el objeto n por donde le pasaremos los datos*/
+     /*Creamos la clase nif con el objeto n por donde le pasaremos los datos.*/
      nif n = new nif();
      /*Realizamos una llamada al siguiente método para pedir el DNI al usuario*/
      n.pedirdni(n);
