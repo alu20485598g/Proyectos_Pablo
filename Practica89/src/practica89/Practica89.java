@@ -18,7 +18,7 @@ public class Practica89 {
      */
     public static void main(String[] args) {
     /* Creamos la clase fecha con el objeto f para guardar los datos que nos 
-        pase el usuario*/ 
+        pase el usuario.*/ 
     fecha f = new fecha();
     /*Creamos la clase menu*/
     menu m = new menu();
