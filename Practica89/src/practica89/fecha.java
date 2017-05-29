@@ -102,7 +102,7 @@ public class fecha {
     else{if (r1 != 0 && month == 2 && day > 28){System.out.println();
         System.out.println("Error. El mes "+ month +" del año "+ year +
                 " no tiene más de 28 días.");}
-    else{if (month == 4 || month == 6 || month == 9 || month == 11 && day > 30){
+    else{if ((month == 4 || month == 6 || month == 9 || month == 11) && day > 30){
         System.out.println();
         System.out.println("Error. El mes "+ month +" del año "+ year +
                 " no tiene más de 30 días.");}
